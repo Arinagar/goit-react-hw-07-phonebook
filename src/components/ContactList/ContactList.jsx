@@ -14,7 +14,7 @@ export const ContactsList = () => {
       {contacts.map(el => {
         return (
           <li key={el.id} className={css.list_item}>
-            {el.name}: {el.phone}
+            {el.name}: {el.number}
             <button
               type="button"
               onClick={() => {
